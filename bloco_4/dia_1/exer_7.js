@@ -28,4 +28,4 @@ function converte_nota(n) {
   }
 }
 
-console.log('');
+console.log('-----------');

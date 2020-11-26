@@ -27,4 +27,4 @@ function mov_xadrex (p) {
 
 mov_xadrex(p);
 
-console.log('');
+console.log('-----------');

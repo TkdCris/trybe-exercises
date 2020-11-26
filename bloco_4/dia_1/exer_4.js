@@ -15,4 +15,4 @@ function statusNum(n) {
 
 statusNum(num);
 
-console.log('');
+console.log('-----------');

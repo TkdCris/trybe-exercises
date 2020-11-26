@@ -34,4 +34,4 @@ console.log(`A multiplicação de ${a} * ${b} = ${multiplicacao(a,b)}`);
 console.log(`A divisão de ${a} / ${b} / ${divisao(a,b)}`);
 console.log(`O módulo de ${a} % ${b} = ${modulo(a,b)}`);
 
-console.log('');
+console.log('-----------');

@@ -7,4 +7,4 @@ function maiorValor(n) {
 
 console.log(maiorValor(array));
 
-console.log('');
+console.log('-----------');

@@ -14,4 +14,4 @@ function angTriangulo(n1, n2, n3) {
 let result = angTriangulo(angulo_1, angulo_2, angulo_3)
 console.log(result);
 
-console.log('');
+console.log('-----------');
