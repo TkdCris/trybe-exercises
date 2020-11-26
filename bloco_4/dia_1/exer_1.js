@@ -1,19 +1,26 @@
+// 1 - Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, a e b , definidas no começo com os valores que serão operados. Faça programas para:
+
+// Adição
 function soma (a,b) {
   return a + b;
 }
 
+// Subtração
 function subtracao (a,b) {
   return a - b;
 } 
 
+// Multiplicação
 function multiplicacao (a,b) {
   return a * b;
 }
 
+// Divisão
 function divisao (a,b) {
   return a / b;
 }
 
+// Módulo
 function modulo (a,b) {
   return a % b;
 }
