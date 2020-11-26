@@ -5,8 +5,12 @@ let num1 = 15;
 let num2 = 26;
 let num3 = 1501;
 function par(n1, n2, n3) {
-  if (num1 % 2 == 0 || num2 % 2 || num3 % 2 == 0) {
+  if (num1 % 2 == 0 || num2 % 2 == 0 || num3 % 2 == 0) {
     return true;
   }
   return false;
 }
+
+consolo.log(par(num1, num2, num3));
+
+console.log('');

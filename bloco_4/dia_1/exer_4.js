@@ -14,3 +14,5 @@ function statusNum(n) {
 }
 
 statusNum(num);
+
+console.log('');

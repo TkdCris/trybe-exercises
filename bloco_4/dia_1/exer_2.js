@@ -9,3 +9,8 @@ function retornaMaior (a,b) {
   }
   return 'São iguais';
 }
+
+console.log(retornaMaior(20, 201));
+
+
+console.log('');

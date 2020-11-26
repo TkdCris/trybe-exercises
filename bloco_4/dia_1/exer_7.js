@@ -8,7 +8,7 @@
 // Porcentagem < 50 -> F
 // O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 
-let nota = 0;
+let nota = 91;
 console.log(converte_nota(nota));
 function converte_nota(n) {
   if (n >= 0 && n <= 50 ){
@@ -27,3 +27,5 @@ function converte_nota(n) {
     return 'Valor inválido informado!';
   }
 }
+
+console.log('');

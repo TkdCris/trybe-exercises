@@ -15,7 +15,7 @@ const movXadrex = [
   ['peao','O peão movimenta-se apenas uma casa para frente e somente captura outras peças na diagonal. Opcionalmente, cada peão pode avançar duas casas no seu primeiro movimento do jogo.']
 ];
 
-let p = 'Rei';
+let p = 'Rainha';
 function mov_xadrex (p) {
   for (let i in movXadrex) {
     if (p.toLowerCase() == movXadrex[i][0]){
@@ -27,3 +27,4 @@ function mov_xadrex (p) {
 
 mov_xadrex(p);
 
+console.log('');
