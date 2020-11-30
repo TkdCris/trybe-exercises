@@ -20,7 +20,7 @@ for (i = 0; i < linhas; i++) {
       }else{
         string += ' ';
       }
-    }else if((j == Math.ceil(colunas / 2) - cont + 1) || (j == Math.ceil(colunas / 2) + cont - 3)){ // Tentando preencher as linhas do corpo
+    }else if((j == Math.ceil(colunas / 2) - cont + 1) || (j == Math.ceil(colunas / 2) + cont - 3)){ // Linhas do corpo
       string += '*';
     }else{
       string += ' ';
