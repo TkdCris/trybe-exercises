@@ -5,7 +5,7 @@
 //  ***
 // *****
 
-let colunas = 6;
+let colunas = 7;
 let linhas = Math.ceil(colunas/2);
 let cont = 1;
 
