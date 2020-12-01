@@ -8,7 +8,6 @@ let num = [2, 3, 2, 5, 8, 2, 3];
 function repeatMore(array) {
   let numRepeat;
   let qntRepeat = 0;
-  let duplicate = [];
   for (let i = 0; i < array.length; i++) {
     let cont1 = 0;
     let cont2 = 0;
