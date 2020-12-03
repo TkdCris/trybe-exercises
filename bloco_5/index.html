@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <h2 id="page-title">Título</h2>
-    <p id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h2 id="page-title" class="title">Título</h2>
+    <p id="paragraph" class="class_paragraph">Dê uma cor para este parágrafo!</p>
     <h4 id="subtitle">Subtítulo</h4>
-    <p id="second-paragraph">Segundo parágrafo!</p>
+    <p id="second-paragraph" class="class_paragraph">Segundo parágrafo!</p>
 
     <script>
       var paragraph = document.getElementById("paragraph");
       paragraph.style.color = "blue";
 
-    // 1 - Recupere o elemento que contém o título da página e faça algo com ele, como alterá-lo para o nome do seu filme favorito.
+    // 1.1 - Recupere o elemento que contém o título da página e faça algo com ele, como alterá-lo para o nome do seu filme favorito.
 
       let titulo = document.getElementById("page-title");
       titulo.innerText = 'The Lord Of The Rings';
 
-    // 1.1 Outra maneira de mudar o texto -- Tirar duvidas sobre quando usar dessa forma.
+    // Outra maneira de mudar o texto -- Tirar duvidas sobre quando usar dessa forma.
     // Qual a diferença entre usar innerText ou textContent ?
       document.getElementById("page-title").textContent = titulo.textContent +' e Harry Potter';
 
-    // 2 - Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
+    // 1.2 - Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
 
       let secondParagraph = document.getElementById("second-paragraph");
       secondParagraph.textContent = 'Para serem lembrados por decadas';
 
-    // 3 - Por fim, recupere o subtítulo e altere-o também.
+    // 1.3 - Por fim, recupere o subtítulo e altere-o também.
 
       document.getElementById('subtitle').innerHTML = 'Filmes marcantes'
+
+    // 2.1 - Adicione ao seu HTML uma classe com alguns estilos para os seus dois parágrafos.
+
+      // Feito no body
+
+    // 2.2 - Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName ;
+
+    let paragraph2 = document.getElementsByClassName("class_paragraph");
+
+
+      console.log(paragraph2[1],paragraph2[0]);
+
+    // 2.3 - Altere algum estilo do primeiro deles.
+
+    paragraph2[0].style.color = 'purple';
+    paragraph2[1].style.backgroundColor = 'green';
+
+    // 2.4 - Recupere o subtítulo pela tag.
+
+    document.getElementsByTagName('p')[0].style.backgroundColor = "#31ff4e";
 
 
     </script>
