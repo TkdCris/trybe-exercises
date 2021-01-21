@@ -9,7 +9,6 @@ const sum = (...args) => {
     return a + b;
   }, 0)
 };
-// sum()
 
 assert.strictEqual(sum(), 0)
 assert.strictEqual(sum(1), 1)
